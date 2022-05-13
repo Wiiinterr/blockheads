@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "Blockheads",
+    "icon": {
+      "value": "Blocks.PLAYER_WALL_HEAD"
+    },
+    "showSearch": true
+  }
+}
