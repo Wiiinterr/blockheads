@@ -20,17 +20,19 @@
       "name": "Weed1",
       "type": "structure",
       "sortid": 2,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
-      "registry_name": "weed_1"
+      "registry_name": "weed_1",
+      "path": "~/Sructures"
     },
     {
       "name": "Stone1",
       "type": "structure",
       "sortid": 2,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
-      "registry_name": "stone_1"
+      "registry_name": "stone_1",
+      "path": "~/Sructures"
     }
   ],
   "variable_elements": [],
@@ -42,7 +44,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Sructures",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "blockheads",
