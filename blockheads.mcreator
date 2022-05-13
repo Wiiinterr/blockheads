@@ -4,7 +4,7 @@
       "name": "CustomSmith",
       "type": "gui",
       "sortid": 1,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "custom_smith"
     },
@@ -23,6 +23,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "weed_1"
+    },
+    {
+      "name": "Stone1",
+      "type": "structure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_1"
     }
   ],
   "variable_elements": [],

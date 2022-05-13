@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
 import net.mcreator.blockheads.world.features.Weed1Feature;
+import net.mcreator.blockheads.world.features.Stone1Feature;
 import net.mcreator.blockheads.BlockheadsMod;
 
 import java.util.function.Supplier;
@@ -31,6 +32,8 @@ public class BlockheadsModFeatures {
 	private static final List<FeatureRegistration> FEATURE_REGISTRATIONS = new ArrayList<>();
 	public static final RegistryObject<Feature<?>> WEED_1 = register("weed_1", Weed1Feature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, Weed1Feature.GENERATE_BIOMES, Weed1Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> STONE_1 = register("stone_1", Stone1Feature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, Stone1Feature.GENERATE_BIOMES, Stone1Feature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);
