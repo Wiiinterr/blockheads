@@ -27,6 +27,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.blockheads.init.BlockheadsModTabs;
+import net.mcreator.blockheads.init.BlockheadsModFeatures;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -44,6 +45,8 @@ public class BlockheadsMod {
 	public BlockheadsMod() {
 		BlockheadsModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		BlockheadsModFeatures.REGISTRY.register(bus);
 
 	}
 
