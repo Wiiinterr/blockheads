@@ -16,7 +16,7 @@ import java.util.List;
 
 public class BookItem extends Item {
 	public BookItem() {
-		super(new Item.Properties().tab(BlockheadsModTabs.TAB_BLOCKHEADS).stacksTo(64).fireResistant().rarity(Rarity.RARE));
+		super(new Item.Properties().tab(BlockheadsModTabs.TAB_BLOCKHEADS).stacksTo(1).fireResistant().rarity(Rarity.RARE));
 	}
 
 	@Override

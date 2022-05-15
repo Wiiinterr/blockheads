@@ -2,15 +2,15 @@
   "_fv": 28,
   "_type": "item",
   "definition": {
-    "renderType": 2,
+    "renderType": 1,
     "texture": "texturtttte",
-    "customModelName": "model:default",
+    "customModelName": "ppeeee:default",
     "name": "Fire Book",
     "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:Blockheads"
     },
-    "stackSize": 64,
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,

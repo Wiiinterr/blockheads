@@ -1,10 +1,7 @@
 {
-  "forge_marker": 1,
-  "parent": "forge:item/default",
-  "loader": "forge:obj",
-  "model": "blockheads:models/item/model.obj",
+  "parent": "blockheads:custom/ppeeee",
   "textures": {
-    "m_0": "blockheads:blocks/texturtttte",
+    "0": "blockheads:blocks/texturtttte",
     "particle": "blockheads:items/texturtttte"
   }
 }
