@@ -4,7 +4,7 @@
       "name": "CustomSmith",
       "type": "gui",
       "sortid": 1,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "custom_smith"
     },
@@ -22,8 +22,7 @@
       "sortid": 2,
       "compiles": false,
       "locked_code": false,
-      "registry_name": "weed_1",
-      "path": "~/Sructures"
+      "registry_name": "weed_1"
     },
     {
       "name": "Stone1",
@@ -31,25 +30,28 @@
       "sortid": 2,
       "compiles": false,
       "locked_code": false,
-      "registry_name": "stone_1",
-      "path": "~/Sructures"
+      "registry_name": "stone_1"
+    },
+    {
+      "name": "Book",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.blockheads.book": "Fire Book",
       "itemGroup.tabblockheads": "Blockheads"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": [
-      {
-        "name": "Sructures",
-        "children": []
-      }
-    ]
+    "children": []
   },
   "workspaceSettings": {
     "modid": "blockheads",
