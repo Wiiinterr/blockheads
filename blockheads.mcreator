@@ -20,7 +20,7 @@
       "name": "Weed1",
       "type": "structure",
       "sortid": 2,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "weed_1"
     },
@@ -28,7 +28,7 @@
       "name": "Stone1",
       "type": "structure",
       "sortid": 2,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "stone_1"
     },
