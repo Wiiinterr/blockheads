@@ -1,7 +1,7 @@
 {
-  "parent": "blockheads:custom/ppeeee",
+  "parent": "blockheads:custom/firebook",
   "textures": {
-    "0": "blockheads:blocks/texturtttte",
-    "particle": "blockheads:items/texturtttte"
+    "0": "blockheads:blocks/fire_book",
+    "particle": "blockheads:items/fire_book"
   }
 }
