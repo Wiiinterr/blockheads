@@ -1,0 +1,7 @@
+{
+  "parent": "blockheads:custom/burger",
+  "textures": {
+    "0": "blockheads:blocks/burgegrtexture",
+    "particle": "blockheads:items/a"
+  }
+}

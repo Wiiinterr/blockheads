@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.item.Item;
 
 import net.mcreator.blockheads.item.WizardstaffItem;
+import net.mcreator.blockheads.item.BurgerItem;
 import net.mcreator.blockheads.item.BookItem;
 import net.mcreator.blockheads.BlockheadsMod;
 
@@ -18,4 +19,5 @@ public class BlockheadsModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, BlockheadsMod.MODID);
 	public static final RegistryObject<Item> BOOK = REGISTRY.register("book", () -> new BookItem());
 	public static final RegistryObject<Item> WIZARDSTAFF = REGISTRY.register("wizardstaff", () -> new WizardstaffItem());
+	public static final RegistryObject<Item> BURGER = REGISTRY.register("burger", () -> new BurgerItem());
 }

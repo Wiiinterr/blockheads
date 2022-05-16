@@ -47,6 +47,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "wizardstaff"
+    },
+    {
+      "name": "Burger",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burger"
     }
   ],
   "variable_elements": [],
@@ -55,7 +63,8 @@
     "en_us": {
       "item.blockheads.wizardstaff": "Wizardstaff",
       "item.blockheads.book": "Fire Book",
-      "itemGroup.tabblockheads": "Blockheads"
+      "itemGroup.tabblockheads": "Blockheads",
+      "item.blockheads.burger": "Burger"
     }
   },
   "foldersRoot": {
