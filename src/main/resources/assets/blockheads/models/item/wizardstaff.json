@@ -1,0 +1,7 @@
+{
+  "parent": "blockheads:custom/wizard",
+  "textures": {
+    "0": "blockheads:blocks/wizardstaff",
+    "particle": "blockheads:items/wizardstaff"
+  }
+}

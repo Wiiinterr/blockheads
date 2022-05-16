@@ -39,12 +39,21 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "book"
+    },
+    {
+      "name": "Wizardstaff",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wizardstaff"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.blockheads.wizardstaff": "Wizardstaff",
       "item.blockheads.book": "Fire Book",
       "itemGroup.tabblockheads": "Blockheads"
     }
